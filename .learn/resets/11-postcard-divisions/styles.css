@@ -1,13 +1,9 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
 	background: black;
 }
 
 .postcard {
+	border: 1px solid black;
 	background: white;
 	width: 400px;
 	height: 300px;
@@ -31,28 +27,17 @@ body {
 .postcard-body {
 	display: flex;
 }
-
-.body-right {
-	margin-top: 20px;
-}
-.body-right input {
-	border: none;
-	border-bottom: solid 1px grey;
-	margin-bottom: 10px;
+.postcard-body input {
+	color: rgb(180, 178, 178);
+	margin-top: 10px;
 }
 
 .postcard-footer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
+
 .postcard-footer button {
-	margin: 11px;
-	padding-block: 5px;
-	padding-inline: 15px;
-	background-color: rgb(160, 159, 159);
+	background-color: rgb(184, 184, 184);
 	color: black;
-	border: 1px solid black;
-	border-radius: 0.1rem;
-	font-size: 10px;
 }
